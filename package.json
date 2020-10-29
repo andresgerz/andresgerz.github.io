@@ -1,0 +1,17 @@
+{
+  "name": "i-am-learning",
+  "version": "1.0.0",
+  "description": "app with vanilla.js",
+  "main": "index.html",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --watch --node-resolve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "es-dev-server": "^1.57.8"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}

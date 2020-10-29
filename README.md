@@ -1,2 +1,2 @@
 # i-am-learning
-Web: Next.js. TypeScript
+Web: Vanilla.js and CSS
