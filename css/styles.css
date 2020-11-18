@@ -1,0 +1,70 @@
+/* Patela de colores 
+
+#BB683E
+#BE853E
+#C0A43E
+#C1C240
+
+*/
+
+
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Global */
+
+ul li {
+  float: left;
+  margin-right: 1rem;
+  list-style: none;
+}
+
+
+#header, #footer {
+  background-color: #BE853E;
+  height: 5rem;
+}
+
+
+#main {
+  height: 100vh;
+  background-color: #C1C240;
+}
+
+
+/* english */
+
+.irregular-verbs-english-container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.irregular-verbs-english-container .item {
+  border: 1px solid #000;
+  width: 194px;
+}
+
+
+/* Deutsch */
+
+
+.irregular-verbs-deutsch-container {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.irregular-verbs-deutsch-container .item {
+  border: 1px solid #000;
+  width: 194px;
+}
