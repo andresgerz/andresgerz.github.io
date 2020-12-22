@@ -1,0 +1,4 @@
+name: api
+recipe: laravel
+config:
+  webroot: api/public
