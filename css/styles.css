@@ -35,8 +35,8 @@ ul li {
 
 .verbs-tenses-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(12, 100px);
   font-size: 20px;
   font-weight: bold;
   grid-gap-column: 1rem;

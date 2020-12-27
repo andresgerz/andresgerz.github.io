@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Courses;
+use App\Models\Deutsch;
 use Illuminate\Http\Request;
 
-class CoursesController extends Controller
+class DeutschController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,7 @@ class CoursesController extends Controller
      */
     public function index()
     {
-        $courses=Courses::all();
-        return $courses;
+        //
     }
 
     /**
@@ -23,7 +22,11 @@ class CoursesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-  
+    public function create()
+    {
+        //
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -32,17 +35,16 @@ class CoursesController extends Controller
      */
     public function store(Request $request)
     {
-        $courses=Courses::create($request->all());
-        return $courses;
+        //
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\courses  $courses
+     * @param  \App\Models\Deutsch  $deutsch
      * @return \Illuminate\Http\Response
      */
-    public function show(courses $courses)
+    public function show(Deutsch $deutsch)
     {
         //
     }
@@ -50,10 +52,10 @@ class CoursesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\courses  $courses
+     * @param  \App\Models\Deutsch  $deutsch
      * @return \Illuminate\Http\Response
      */
-    public function edit(courses $courses)
+    public function edit(Deutsch $deutsch)
     {
         //
     }
@@ -62,10 +64,10 @@ class CoursesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\courses  $courses
+     * @param  \App\Models\Deutsch  $deutsch
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, courses $courses)
+    public function update(Request $request, Deutsch $deutsch)
     {
         //
     }
@@ -73,10 +75,10 @@ class CoursesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\courses  $courses
+     * @param  \App\Models\Deutsch  $deutsch
      * @return \Illuminate\Http\Response
      */
-    public function destroy(courses $courses)
+    public function destroy(Deutsch $deutsch)
     {
         //
     }
